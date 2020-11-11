@@ -1,1 +1,3 @@
-Doing things in GoLang ✨
+# Infra Assignment 👩🏽‍🔧✨
+
+Hello, World 👋🏽
