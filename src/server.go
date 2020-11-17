@@ -12,7 +12,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
     }
 
     if r.Method != "GET" {
-        http.Error(w, "405 method is not supported.", http.StatusNotFound)
+        http.Error(w, "405 method is not supported.", http.StatusMethodNotAllowed)
         return
 	}
 	
