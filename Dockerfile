@@ -1,5 +1,5 @@
 FROM golang:1.15 as builder
-WORKDIR GoPractice/src/server
+WORKDIR /GoPractice/src/server
 COPY server.go    .
 RUN GOOS=linux go build -a -o app .
 
